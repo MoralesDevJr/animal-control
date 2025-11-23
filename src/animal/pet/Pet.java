@@ -14,10 +14,9 @@ public class Pet {
         this.alimentado = alimentado;
     }
 
-    public Pet(int IDAnimal, String especie, String nome) {
+    public Pet(int IDAnimal, String especie) {
         this.IDAnimal = IDAnimal;
         this.especie = especie;
-        this.nome = nome;
         this.alimentado = false;
     }
 
