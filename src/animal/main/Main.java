@@ -1,20 +1,33 @@
 package animal.main;
 import animal.pet.Pet;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        Pet pet1 = new Pet("Raw", "Cachorro", 3);
-//        pet1.exibirInfo();
-//        pet1.alimentar();
-//        System.out.println("Nome do primeiro pet: " + pet1.nome);
-//        Pet pet2 = new Pet("Ráu", "Cachorro", 4);
-//        pet2.exibirInfo();
-//        System.out.println("Nome do segundo pet: " + pet2.nome);
-//        Pet pet3 = new Pet("Rex", "Cachorro", 10);
-//        pet3.exibirInfo();
-//        System.out.println("Nome do terceiro pet: " + pet3.nome);
-//        Pet pet4 = new Pet("Felix", "Gato", 1);
-//        pet4.exibirInfo();
-//        System.out.println("Nome do quarta pet: " + pet4.nome);
+    Scanner scn = new Scanner(System.in);
+    Animal animal = new Animal();
+
+    System.out.println("Controle de animais alimentados.");
+    do {
+        System.out.println("--- ENTRADA ---: ");
+        System.out.println("1- CADASTRAR NOVO ANIMAL");
+        System.out.println("2- LISTAR DE ANIMAIS PRESENTES");
+        System.out.println("3- ATUALIZAR DADOS DE UM ANIMAL");
+        System.out.println("4- SAIR");
+        int opcao = scn.nextInt();
+    } while (opcao != 4);
+    switch(){
+        case 1:
+            System.out.println("Digite seu ID: ");
+            opcao = scn.next();
+            cadastrarAnimal();
+        case 2:
+                listagemAnimais();
+        case 3:
+            System.out.println("Digite ID do animal: ");
+            int IDAnimal = scn.nextInt();
+
+
     }
-}
+    scn.close();
+    }
