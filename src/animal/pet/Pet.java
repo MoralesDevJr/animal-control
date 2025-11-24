@@ -2,6 +2,7 @@ package animal.pet;
 
 public class Pet {
     private int IDAnimal;
+    private String nome;
     public String especie;
     public boolean alimentado;
 
@@ -10,11 +11,12 @@ public class Pet {
 
     public Pet(int IDAnimal, int senha, String especie, boolean alimentado) {
         this.IDAnimal = IDAnimal;
+        this.senha = senha;
         this.especie = especie;
         this.alimentado = alimentado;
     }
 
-    public Pet(int IDAnimal, String especie) {
+    public Pet(int IDAnimal, String especie, int senha) {
         this.IDAnimal = IDAnimal;
         this.especie = especie;
         this.alimentado = false;
@@ -28,11 +30,11 @@ public class Pet {
         this.IDAnimal = IDAnimal;
     }
 
-    public int getIdade() {
-        return idade;
+    public String getNome() {
+        return nome;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }
