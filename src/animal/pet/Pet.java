@@ -37,4 +37,12 @@ public class Pet {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public void cadastrarAnimal(int IDAnimal) {
+        this.IDAnimal = IDAnimal;
+    }
+
+    public void listagemAnimais(String listagem) {
+        this.listagem = listagem;
+    }
 }
