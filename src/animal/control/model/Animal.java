@@ -18,11 +18,10 @@ public class Animal {
         this.IDAnimal = IDAnimal;
         this.especie = especie;
     }
-,
+
     public int getIDAnimal() {
         return IDAnimal;
     }
-
     public void setIDAnimal(int IDAnimal) {
         this.IDAnimal = IDAnimal;
     }
@@ -30,7 +29,6 @@ public class Animal {
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }

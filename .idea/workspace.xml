@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/animal/orcamento/CartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/orcamento/CartaoDebito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/animal/orcamento/Pagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal-control.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/animal-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/animal-control.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/pet/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/control/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/control/service/CartaoCredito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/control/service/CartaoDebito.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/felip/Desktop/animal-control/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.52685714&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
@@ -113,11 +112,26 @@
       <workItem from="1763935754520" duration="1646000" />
       <workItem from="1763937577147" duration="15000" />
       <workItem from="1763937604822" duration="5922000" />
-      <workItem from="1764027456802" duration="4355000" />
+      <workItem from="1764027456802" duration="5317000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/animal/cadastro/Cadastro.java</url>
+          <line>17</line>
+          <properties class="animal.cadastro.Cadastro" method="getEmail">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
