@@ -1,5 +1,6 @@
 package animal.cadastro;
 import main.Main;
+import java.util.Scanner;
 
 public class Cadastro {
     static Scanner scn = new Scanner(System.in);
@@ -11,7 +12,6 @@ public class Cadastro {
         String senha = scn.nextLine();
         System.out.println("Senha: " + senha);
     }
-
     public static void cancelarCadastro() {
         System.out.print("Deseja cancelar o cadastro? (Sim/Nao): ");
         String opcaoSim = scn.nextLine();
@@ -24,9 +24,5 @@ public class Cadastro {
                 return;
             }
         }
-    }
-
-        String cadastro = Cadastro.cadastrarAnimal();
-        String cancelarCadastro = Cadastro.cancelarCadastro();
     }
 }
