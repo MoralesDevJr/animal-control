@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal-control.iml" beforeDir="false" afterPath="$PROJECT_DIR$/animal-control.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/control/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/control/service/CartaoCredito.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/control/service/CartaoDebito.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/control/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,26 +107,12 @@
       <workItem from="1763935754520" duration="1646000" />
       <workItem from="1763937577147" duration="15000" />
       <workItem from="1763937604822" duration="5922000" />
-      <workItem from="1764027456802" duration="5317000" />
+      <workItem from="1764027456802" duration="5737000" />
+      <workItem from="1764111397017" duration="705000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/animal/cadastro/Cadastro.java</url>
-          <line>17</line>
-          <properties class="animal.cadastro.Cadastro" method="getEmail">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

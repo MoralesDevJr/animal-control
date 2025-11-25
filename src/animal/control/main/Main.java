@@ -1,6 +1,5 @@
 package animal.control.main;
 import animal.cadastro.Cadastro;
-
 import java.util.Scanner;
 
 public class Main {
@@ -17,7 +16,7 @@ public class Main {
             opcao = scn.nextInt();
         switch(opcao){
             case 1:
-                Cadastro.cadastrarAnimal();
+                Cadastro.cadastrarAnimal("Raw", "rawzinho@", 12312300);
                 break;
 
             case 2:
