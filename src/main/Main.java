@@ -11,20 +11,22 @@ public class Main {
             System.out.println("--- ENTRADA ---: ");
             System.out.println("1- CADASTRAR NOVO ANIMAL");
             System.out.println("2- LISTAR DE ANIMAIS PRESENTES");
-            System.out.println("3- ATUALIZAR DADOS DE UM ANIMAL");
+            System.out.println("3- CANCELAR CADASTRO");
             System.out.println("4- SAIR");
             opcao = scn.nextInt();
         switch(opcao){
             case 1:
-                Cadastro.cadastrarAnimal("Raw", "rawzinho@", 12312300);
+                Cadastro.cadastrarAnimal();
                 break;
 
             case 2:
-                System.out.println("Listando animais... (implementar)");
+                    System.out.println("Animal 1");
+                    System.out.println("Animal 2");
+                    System.out.println("Animal 3");
+                    System.out.println("Animal 4");
                 break;
-
             case 3:
-                System.out.println("Atualizando animal... (implementar)");
+                Cadastro.cancelarCadastro();
                 break;
 
             case 4:
