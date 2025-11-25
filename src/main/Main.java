@@ -1,4 +1,4 @@
-package animal.control.main;
+package main;
 import animal.cadastro.Cadastro;
 import java.util.Scanner;
 
