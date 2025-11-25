@@ -1,21 +1,14 @@
 package animal.cadastro;
 
 public class Cadastro {
-  private String email;
-  private int CPF;
-  private int senha;
+    private String email;
+    private String nome;
+    private int CPF;
 
-  public Cadastro(String email, int CPF, int senha){
-    this.email = email;
-    this.CPF = CPF;
-    this.senha = senha;
-  }
+    public void cadastrarAnimal() {
+        System.out.println("Digite o email: " + this.email);
+        System.out.println("Digite o nome: " + this.nome);
+        System.out.println("Digite o CPF: " + this.CPF);
+    }
 
-  public void seCadastro(){
-    System.out.println("Digite seu email: ");
-    System.out.println("Email: " + this.email);
-  }
-
-  public void cancelarCadastro(){
-    System.out.println("Cadastro cancelado!");
 }

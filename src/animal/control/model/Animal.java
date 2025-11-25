@@ -1,27 +1,24 @@
-package animal.pet;
+package animal.control.model;
 
-public class Pet {
+public class Animal {
     private int IDAnimal;
     private String nome;
     public String especie;
-    public boolean alimentado;
 
-    public Pet() {
+    public Animal() {
     }
 
-    public Pet(int IDAnimal, int senha, String especie, boolean alimentado) {
+    public Animal(int IDAnimal, String nome, String especie) {
         this.IDAnimal = IDAnimal;
-        this.senha = senha;
+        this.nome = nome;
         this.especie = especie;
-        this.alimentado = alimentado;
     }
 
-    public Pet(int IDAnimal, String especie, int senha) {
+    public Animal(int IDAnimal, String especie) {
         this.IDAnimal = IDAnimal;
         this.especie = especie;
-        this.alimentado = false;
     }
-
+,
     public int getIDAnimal() {
         return IDAnimal;
     }
@@ -36,13 +33,5 @@ public class Pet {
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public void cadastrarAnimal(int IDAnimal) {
-        this.IDAnimal = IDAnimal;
-    }
-
-    public void listagemAnimais(String listagem) {
-        this.listagem = listagem;
     }
 }
