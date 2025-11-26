@@ -7,7 +7,7 @@
     <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +49,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.animal.main.Main.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/felip/Desktop/animal-control",
@@ -73,12 +75,12 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
+    <configuration name="animal.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="animal.main.Main" />
       <module name="animal-control" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="animal.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +90,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.animal.main.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +114,8 @@
       <workItem from="1763937577147" duration="15000" />
       <workItem from="1763937604822" duration="5922000" />
       <workItem from="1764027456802" duration="5737000" />
-      <workItem from="1764111397017" duration="2971000" />
+      <workItem from="1764111397017" duration="3879000" />
+      <workItem from="1764115690270" duration="998000" />
     </task>
     <task id="LOCAL-00001" summary="static">
       <option name="closed" value="true" />
@@ -140,5 +143,10 @@
     <MESSAGE value="static" />
     <MESSAGE value="separating main(?)" />
     <option name="LAST_COMMIT_MESSAGE" value="separating main(?)" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/animal_control$animal_main_Main.ic" NAME="animal.main.Main Coverage Results" MODIFIED="1764116331590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>animal.main.*</FILTER>
+    </SUITE>
   </component>
 </project>

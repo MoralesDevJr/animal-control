@@ -1,10 +1,9 @@
 package animal.cadastro;
-import main.Main;
 import java.util.Scanner;
 
 public class Cadastro {
     static Scanner scn = new Scanner(System.in);
-    public static void cadastrarAnimal() {
+    public static void cadastrarAnimal(Scanner scn) {
         System.out.print("Nome: ");
         String nome = scn.nextLine();
         System.out.println("Nome: " + nome);
@@ -12,14 +11,14 @@ public class Cadastro {
         String senha = scn.nextLine();
         System.out.println("Senha: " + senha);
     }
-    public static void cancelarCadastro() {
+    public static void cancelarCadastro(Scanner scn) {
         System.out.print("Deseja cancelar o cadastro? (Sim/Nao): ");
-        String opcaoSim = scn.nextLine();
+        String opcaoSim = Cadastro.scn.nextLine();
         if (opcaoSim.equals("Sim")) {
             System.out.println("Cadastro Cancelado!");
         }else {
             System.out.print("Deseja retornar ao menu? (Sim/Nao): ");
-            opcaoSim = scn.nextLine();
+            opcaoSim = Cadastro.scn.nextLine();
             if (opcaoSim.equals("Sim")) {
                 return;
             }

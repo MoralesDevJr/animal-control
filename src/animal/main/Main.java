@@ -1,4 +1,4 @@
-package main;
+package animal.main;
 import animal.cadastro.Cadastro;
 import java.util.Scanner;
 
@@ -16,7 +16,8 @@ public class Main {
             opcao = scn.nextInt();
         switch(opcao){
             case 1:
-                Cadastro.cadastrarAnimal();
+                scn.nextLine();
+                Cadastro.cadastrarAnimal(scn);
                 break;
 
             case 2:
@@ -26,7 +27,8 @@ public class Main {
                     System.out.println("Animal 4");
                 break;
             case 3:
-                Cadastro.cancelarCadastro();
+                scn.nextLine();
+                Cadastro.cancelarCadastro(scn);
                 break;
 
             case 4:
