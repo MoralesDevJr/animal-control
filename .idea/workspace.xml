@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="static">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/cadastro/ComCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/cadastro/ComCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/control/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/main/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="static" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,24 +144,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/control/model/Animal.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/animal/cadastro/ComCadastro.java</url>
-          <line>58</line>
+          <line>55</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/control/model/Animal.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/animal/control/model/Animal.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

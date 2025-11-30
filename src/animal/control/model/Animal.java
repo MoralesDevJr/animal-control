@@ -37,8 +37,7 @@ public class Animal {
         this.especie = especie;
     }
 
-    public void mostrarAnimal() {
-        this.nome = nome;
-        System.out.println("Nome: " + nome + 0);
+    public void informacoes(){
+        System.out.println("Nome: " + nome + ", Data de Nascimento: " + dataDeNascimento + ", Espécie: " + especie);
     }
 }
