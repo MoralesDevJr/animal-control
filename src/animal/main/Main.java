@@ -1,15 +1,19 @@
 package animal.main;
 import animal.cadastro.ComCadastro;
 import animal.cadastro.SemCadastro;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        System.out.println("Controle de animais alimentados.");
+        System.out.println("\n -------------------");
+        System.out.println("PET LOVE SHOP & CARE");
+        System.out.println("\n -------------------");
         int opcao;
         do {
-            System.out.println("--- ENTRADA ---: ");
+            System.out.println("------MENU------");
             System.out.println("1- LOGAR");
             System.out.println("2- CADASTRAR NOVO ANIMAL");
             System.out.println("3- LISTAR DE ANIMAIS PRESENTES");
@@ -17,24 +21,20 @@ public class Main {
             opcao = scn.nextInt();
             switch(opcao){
             case 1:
-                System.out.println("Digite o nome do animal: ");
-
+                System.out.println("Digite os dados do Animal: ");
+                System.out.println("Nome do Animal: ");
+                String nome = scn.next();
+                System.out.println("ID do Animal: ");
+                int IDAnimal = scn.nextInt();
+                System.out.println("Convênio: ");
+                System.out.println("ID: " + IDAnimal + " | " + nome +  " | ");
                 break;
-            case 2:
-                    System.out.println("Animal 1");
-                    System.out.println("Animal 2");
-                    System.out.println("Animal 3");
-                    System.out.println("Animal 4");
-                break;
-            case 3:
-                scn.nextLine();
-                ComCadastro.cancelarCadastro(scn);
-                break;
-
-            case 4:
-                System.out.println("Saindo...");
-                break;
-
+//            case 2:
+//                break;
+//            case 3:
+//                break;
+//            case 4:
+//                break;
             default:
                 System.out.println("Opção inválida!");
                 break;

@@ -1,29 +1,19 @@
 package animal.control.model;
+import animal.cadastro.ComCadastro;
+import java.time.LocalDate;
 
 public class Animal {
-    private int IDAnimal;
     private String nome;
-    public String especie;
+    private LocalDate dataDeNascimento;
+    private String especie;
 
     public Animal() {
     }
 
-    public Animal(int IDAnimal, String nome, String especie) {
-        this.IDAnimal = IDAnimal;
+    public Animal(String nome, LocalDate dataDeNascimento, String especie) {
         this.nome = nome;
+        this.dataDeNascimento = dataDeNascimento;
         this.especie = especie;
-    }
-
-    public Animal(int IDAnimal, String especie) {
-        this.IDAnimal = IDAnimal;
-        this.especie = especie;
-    }
-
-    public int getIDAnimal() {
-        return IDAnimal;
-    }
-    public void setIDAnimal(int IDAnimal) {
-        this.IDAnimal = IDAnimal;
     }
 
     public String getNome() {
@@ -31,6 +21,20 @@ public class Animal {
     }
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public LocalDate getDataDeNascimento() {
+        return dataDeNascimento;
+    }
+    public void setDataDeNascimento(LocalDate dataDeNascimento) {
+        this.dataDeNascimento = dataDeNascimento;
+    }
+
+    public String getEspecie() {
+        return especie;
+    }
+    public void setEspecie(String especie) {
+        this.especie = especie;
     }
 
     public void mostrarAnimal() {
