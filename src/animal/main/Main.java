@@ -1,6 +1,6 @@
 package animal.main;
 import animal.cadastro.ComCadastro;
-
+import animal.cadastro.SemCadastro;
 import java.util.Scanner;
 
 public class Main {
@@ -10,15 +10,15 @@ public class Main {
         int opcao;
         do {
             System.out.println("--- ENTRADA ---: ");
-            System.out.println("1- CADASTRAR NOVO ANIMAL");
-            System.out.println("2- LISTAR DE ANIMAIS PRESENTES");
-            System.out.println("3- CANCELAR CADASTRO");
-            System.out.println("4- SAIR");
+            System.out.println("1- LOGAR");
+            System.out.println("2- CADASTRAR NOVO ANIMAL");
+            System.out.println("3- LISTAR DE ANIMAIS PRESENTES");
+            System.out.println("5- SAIR");
             opcao = scn.nextInt();
             switch(opcao){
             case 1:
-                scn.nextLine();
-                ComCadastro.cadastrarAnimal(scn);
+                System.out.println("Digite o nome do animal: ");
+
                 break;
             case 2:
                     System.out.println("Animal 1");
