@@ -1,5 +1,6 @@
 package animal.main;
-import animal.cadastro.Cadastro;
+import animal.cadastro.ComCadastro;
+
 import java.util.Scanner;
 
 public class Main {
@@ -14,12 +15,11 @@ public class Main {
             System.out.println("3- CANCELAR CADASTRO");
             System.out.println("4- SAIR");
             opcao = scn.nextInt();
-        switch(opcao){
+            switch(opcao){
             case 1:
                 scn.nextLine();
-                Cadastro.cadastrarAnimal(scn);
+                ComCadastro.cadastrarAnimal(scn);
                 break;
-
             case 2:
                     System.out.println("Animal 1");
                     System.out.println("Animal 2");
@@ -28,7 +28,7 @@ public class Main {
                 break;
             case 3:
                 scn.nextLine();
-                Cadastro.cancelarCadastro(scn);
+                ComCadastro.cancelarCadastro(scn);
                 break;
 
             case 4:
@@ -37,6 +37,7 @@ public class Main {
 
             default:
                 System.out.println("Opção inválida!");
+                break;
         }
         } while (opcao != 4);
         scn.close();

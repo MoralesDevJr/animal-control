@@ -32,4 +32,9 @@ public class Animal {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+    public void mostrarAnimal() {
+        this.nome = nome;
+        System.out.println("Nome: " + nome + 0);
+    }
 }

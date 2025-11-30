@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="81a90f36-abe1-43bb-a2ba-f329f93164e2" name="Changes" comment="static">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/cadastro/Cadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/control/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/control/model/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/animal/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/animal/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -50,7 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
-    "Application.animal.main.Main.executor": "Debug",
+    "Application.animal.main.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -70,7 +70,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.52685714",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +98,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.27397.103" />
-        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.27397.103" />
       </set>
     </attachedChunks>
   </component>
@@ -115,7 +114,8 @@
       <workItem from="1763937604822" duration="5922000" />
       <workItem from="1764027456802" duration="5737000" />
       <workItem from="1764111397017" duration="3879000" />
-      <workItem from="1764115690270" duration="998000" />
+      <workItem from="1764115690270" duration="1334000" />
+      <workItem from="1764190882530" duration="671000" />
     </task>
     <task id="LOCAL-00001" summary="static">
       <option name="closed" value="true" />
@@ -144,8 +144,12 @@
     <MESSAGE value="separating main(?)" />
     <option name="LAST_COMMIT_MESSAGE" value="separating main(?)" />
   </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/animal_control$animal_main_Main.ic" NAME="animal.main.Main Coverage Results" MODIFIED="1764116331590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/animal_control$animal_main_Main.ic" NAME="animal.main.Main Coverage Results" MODIFIED="1764116934909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>animal.main.*</FILTER>
     </SUITE>
   </component>
