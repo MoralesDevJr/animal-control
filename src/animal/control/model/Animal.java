@@ -1,6 +1,7 @@
 package animal.control.model;
 import animal.cadastro.ComCadastro;
 import java.time.LocalDate;
+import java.util.Locale;
 
 public class Animal {
     private String nome;
@@ -37,7 +38,7 @@ public class Animal {
         this.especie = especie;
     }
 
-    public void informacoes(){
+    public static String informacoes(String nome, LocalDate dataDeNascimento, String especie) {
         System.out.println("Nome: " + nome + ", Data de Nascimento: " + dataDeNascimento + ", Espécie: " + especie);
     }
 }

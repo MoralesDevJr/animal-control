@@ -2,40 +2,29 @@ package animal.cadastro;
 import animal.control.model.Animal;
 
 public class ComCadastro {
+    private Animal animal;
     private String nomeDono;
     private int IDAnimal;
     private String convenio;
 
     public ComCadastro(){}
-    public ComCadastro(String nome, String especie, int dataNascimentoAnimal){
-        this.nome = nome;
-        this.especie = especie;
-        this.dataNascimentoAnimal = dataNascimentoAnimal;
+
+    public ComCadastro(Animal animal, String nomeDono, String convenio, int IDAnimal) {
+        this.animal = animal;
+        this.nomeDono = nomeDono;
+        this.convenio = convenio;
+        this.IDAnimal = IDAnimal;
     }
 
-    public static String convenio(String nomeConvenio, String redeDeAtendimento, String acomodacaoConvenio) {
-        return convenio;
+    public Animal getAnimal() {
+        return animal;
+    }
+    public void setAnimal(Animal animal) {
+        this.animal = animal;
     }
 
-    public String getNome() {
-        return nome;
-    }
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public String getEspecie() {
-        return especie;
-    }
-    public void setEspecie(String especie) {
-        this.especie = especie;
-    }
-
-    public int getDataNascimentoAnimal() {
-        return dataNascimentoAnimal;
-    }
-    public void setDataNascimentoAnimal(int  dataNascimentoAnimal) {
-        this.dataNascimentoAnimal = dataNascimentoAnimal;
+    public static void convenio(String nomeConvenio, String redeDeAtendimento, String acomodacaoConvenio) {
+        System.out.println("Convênio: " + nomeConvenio + "Rede: " + redeDeAtendimento + "Acomodação: " + acomodacaoConvenio);
     }
 
     public String getNomeDono() {
@@ -58,4 +47,14 @@ public class ComCadastro {
     public void setIDAnimal(int IDAnimal) {
         this.IDAnimal = IDAnimal;
     }
+
+    public void exibirCadastro() {
+        System.out.println("ID: " + IDAnimal);
+        System.out.println("Nome do animal: " + animal.getNome());
+        System.out.println("Espécie: " + animal.getEspecie());
+        System.out.println("Data de nascimento: " + animal.getDataDeNascimento());
+        System.out.println("Nome do dono: " + nomeDono);
+        System.out.println("Convênio: " + convenio);
+    }
+
 }

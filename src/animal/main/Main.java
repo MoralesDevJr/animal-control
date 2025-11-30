@@ -1,6 +1,6 @@
 package animal.main;
 import animal.cadastro.ComCadastro;
-import animal.cadastro.SemCadastro;
+import animal.control.model.Animal;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -21,20 +21,25 @@ public class Main {
             opcao = scn.nextInt();
             switch(opcao){
             case 1:
-                System.out.println("Digite os dados do Animal: ");
-                System.out.println("Nome do Animal: ");
-                String nome = scn.next();
-                System.out.println("ID do Animal: ");
-                int IDAnimal = scn.nextInt();
-                System.out.println("Convênio: ");
-                System.out.println("ID: " + IDAnimal + " | " + nome +  " | ");
+                System.out.print("Nome do dono: ");
+                String dono = scn.nextLine();
+                System.out.print("Convênio: ");
+                String convenio = scn.nextLine();
+                System.out.print("ID do animal: ");
+                int IDAnimal = Integer.parseInt(scn.nextLine());
                 break;
-//            case 2:
-//                break;
-//            case 3:
-//                break;
-//            case 4:
-//                break;
+            case 2:
+                System.out.print(" 2 ");
+                break;
+            case 3:
+                System.out.print(" 3 ");
+                break;
+            case 4:
+                System.out.print(" 4 ");
+                break;
+                case 5:
+                    System.out.print("Saindo...");
+                    break;
             default:
                 System.out.println("Opção inválida!");
                 break;
