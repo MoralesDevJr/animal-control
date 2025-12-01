@@ -15,21 +15,18 @@ public class Main {
         do {
             System.out.println("------MENU------");
             System.out.println("1- LOGAR");
-            System.out.println("2- CADASTRAR NOVO ANIMAL");
+            System.out.println("2- CADASTRAR-SE");
             System.out.println("3- LISTAR DE ANIMAIS PRESENTES");
             System.out.println("5- SAIR");
             opcao = scn.nextInt();
             switch(opcao){
             case 1:
-                System.out.print("Nome do dono: ");
-                String dono = scn.nextLine();
-                System.out.print("Convênio: ");
-                String convenio = scn.nextLine();
-                System.out.print("ID do animal: ");
+                System.out.println("ID do animal: ");
                 int IDAnimal = Integer.parseInt(scn.nextLine());
+
                 break;
             case 2:
-                System.out.print(" 2 ");
+                System.out.println("Digite o nome do dono: ");
                 break;
             case 3:
                 System.out.print(" 3 ");

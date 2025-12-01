@@ -4,24 +4,24 @@ import java.time.LocalDate;
 import java.util.Locale;
 
 public class Animal {
-    private String nome;
+    private String nomeDoAnimal;
     private LocalDate dataDeNascimento;
     private String especie;
 
     public Animal() {
     }
 
-    public Animal(String nome, LocalDate dataDeNascimento, String especie) {
-        this.nome = nome;
+    public Animal(String nomeDoAnimal, LocalDate dataDeNascimento, String especie) {
+        this.nomeDoAnimal = nomeDoAnimal;
         this.dataDeNascimento = dataDeNascimento;
         this.especie = especie;
     }
 
     public String getNome() {
-        return nome;
+        return nomeDoAnimal;
     }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String nomeDoAnimal) {
+        this.nomeDoAnimal = nomeDoAnimal;
     }
 
     public LocalDate getDataDeNascimento() {
@@ -38,7 +38,7 @@ public class Animal {
         this.especie = especie;
     }
 
-    public static String informacoes(String nome, LocalDate dataDeNascimento, String especie) {
-        System.out.println("Nome: " + nome + ", Data de Nascimento: " + dataDeNascimento + ", Espécie: " + especie);
+    public void informacoes(String nomeDoAnimal, LocalDate dataDeNascimento, String especie) {
+        System.out.println("Nome: " + nomeDoAnimal + ", Data de Nascimento: " + dataDeNascimento + ", Espécie: " + especie);
     }
 }
